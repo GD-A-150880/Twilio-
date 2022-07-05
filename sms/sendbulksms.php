@@ -5,8 +5,8 @@ require __DIR__ . '/vendor/autoload.php';
 use Twilio\Rest\Client;
 echo "1";
 // Your Account AccountSid and Auth Token from twilio.com/console
-$AccountSid = 'AC0d7b410f970e88e8cdf7eb7bc58c457b';
-$AuthToken = '14fba74ec94646d1b04ce2c3a2015656';
+$AccountSid = 'AC*******************************';
+$AuthToken = '*********************************';
 $client = new Client($AccountSid, $AuthToken);
 echo "1";
 
