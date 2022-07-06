@@ -8,7 +8,7 @@ echo "1";
 $AccountSid = 'AC*******************************';
 $AuthToken = '*********************************';
 $client = new Client($AccountSid, $AuthToken);
-echo "1";
+
 
 // Use the client to do fun stuff like send text messages!
 
