@@ -3,7 +3,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 // Use the REST API Client to make requests to the Twilio REST API
 use Twilio\Rest\Client;
-echo "1";
+
 // Your Account AccountSid and Auth Token from twilio.com/console
 $AccountSid = 'AC*******************************';
 $AuthToken = '*********************************';
@@ -19,7 +19,7 @@ $people = array(
 	'715-446-7120' => "Matt",
 
 );
-echo "1";
+
 
 foreach ($people as $number => $name) {
 	$sms = $client->account->messages->create(
@@ -32,7 +32,7 @@ foreach ($people as $number => $name) {
 //	echo "Sent message to $name <br><br>";
 }
 
-echo "1";
+
 
 
 ?>
